@@ -1,0 +1,99 @@
+body{
+    background-image: url(hercules-hall-surrounded-by-greenery-sunlight-daytime-munich-germany.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.text_align{
+    left: 330px;
+    top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.sign_up{
+    position: absolute;
+    left: 380px;
+    top: 70px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+
+}
+
+.container{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color:rgb(255, 255, 255) ;
+    margin: auto;
+    margin-top: 130px;
+    opacity: 80%;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.header{
+    /* padding-top: 20px; */
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    color: rgb(184, 105, 1);
+    font-weight: 700;
+}
+
+.container>div>form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    margin-top: 30px;
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 90%;
+    border: 1px solid black;
+}
+
+button{
+    width: 30%;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+
+.align{
+    width: 70%;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 70%;
+    margin-bottom: 5px;
+}
+
+
+
+
+
